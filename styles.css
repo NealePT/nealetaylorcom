@@ -80,7 +80,7 @@ header {
 .arrowButton {
   position: fixed;
   top: 0px;
-  right: 0px;
+  right: -200px;
   transition: .5s ease-in-out;
 }
 
@@ -95,7 +95,7 @@ header {
 
 .slide-out{
   position:fixed;
-  right: -200px;
+  right: 0px;
   transition: .5s ease-in-out;
 }
 
