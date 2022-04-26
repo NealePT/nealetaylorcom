@@ -140,6 +140,14 @@ p {
   margin-top: 50px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  border: 2px solid #D45121;
+}
+
+.sayHello:hover {
+  color: #D45121;
+  background-color: #EBEFF1;
+  border: 2px solid #D45121;
+  cursor: pointer;
 }
 
 .about img {
