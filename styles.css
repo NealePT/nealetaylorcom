@@ -132,7 +132,7 @@ p {
 
 .sayHello {
   font-family: 'Vidaloka', serif;
-  background-color: #D45121;
+  background-color: #0C1D24;
   color: #EBEFF1;
   padding: 10px;
   width: 200px;
@@ -140,13 +140,13 @@ p {
   margin-top: 50px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  border: 2px solid #D45121;
+  border: 2px solid #0C1D24;
 }
 
 .sayHello:hover {
-  color: #D45121;
+  color: #0C1D24;
   background-color: #EBEFF1;
-  border: 2px solid #D45121;
+  border: 2px solid #0C1D24;
   cursor: pointer;
 }
 
