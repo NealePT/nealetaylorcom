@@ -108,3 +108,49 @@ header {
   font-family: 'Roboto', serif;
   font-weight: 300;
 }
+
+/* About section */
+
+.flexstuff {
+  margin: 100px 0px;
+  display: flex;
+  align-items: center;
+} 
+
+
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8rem;
+}
+
+.sayHello {
+  font-family: 'Vidaloka', serif;
+  background-color: #D45121;
+  color: #EBEFF1;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  margin-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about img {
+  height: 550px;
+  width: 450px;
+}
+
+.rightside {
+  width: 50%;
+}
+
+.leftside {
+  width: 50%;
+}
