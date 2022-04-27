@@ -78,8 +78,8 @@ header {
 
 .arrowButton {
   position: fixed;
-  top: 0px;
-  right: -200px;
+  top: 10px;
+  right: -190px;
   transition: .5s ease-in-out;
   cursor: pointer;
 }
@@ -99,7 +99,8 @@ header {
 
 .slide-out{
   position:fixed;
-  right: 0px;
+  right: 10px;
+  top: 10px;
   transition: .5s ease-in-out;
 }
 
@@ -113,7 +114,10 @@ header {
 }
 
 .linkButtons {
-  border: 1px solid red;
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 10px;
+  /* margin-right: 10px;
+  margin-top: 10px; */
 }
 
 /* About section */
