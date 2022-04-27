@@ -1,11 +1,11 @@
 $(document).ready(function() {
   $('.click').click(function() {
-    $('.slide-out').css('right', '0');
-    $('.arrowButton').css('right', '-200px');
+    $('.slide-out').css('right', '10px');
+    $('.arrowButton').css('right', '-190px');
   });
   
   $('.clickOff').click(function() {
-    $('.slide-out').css('right', '-200px');
-    $('.arrowButton').css('right', '0');
+    $('.slide-out').css('right', '-190px');
+    $('.arrowButton').css('right', '10px');
   });
 });
