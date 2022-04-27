@@ -61,7 +61,6 @@ header {
   font-size: 25px;
 }
 
-
 .titleCard {
   color:#EBEFF1;
   text-align: center;
@@ -82,6 +81,11 @@ header {
   top: 0px;
   right: -200px;
   transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+.clickOff {
+  cursor: pointer;
 }
 
 .click {
@@ -99,7 +103,6 @@ header {
   transition: .5s ease-in-out;
 }
 
-
 .construction {
   color:#EBEFF1;
   text-align: center;
@@ -109,6 +112,10 @@ header {
   font-weight: 300;
 }
 
+.linkButtons {
+  border: 1px solid red;
+}
+
 /* About section */
 
 .flexstuff {
@@ -116,8 +123,6 @@ header {
   display: flex;
   align-items: center;
 } 
-
-
 
 h2 {
   font-size: 50px;
