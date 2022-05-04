@@ -2,6 +2,7 @@ import Header from './components/Header';
 import { useState } from 'react';
 import './App.css';
 import './components/LinkBar.css'
+import './components/Header.css'
 
 function App() {
   const [linkClick, setLinkClick] = useState(true);
