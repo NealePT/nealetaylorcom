@@ -3,9 +3,14 @@ import Header from './components/Header';
 import { useState } from 'react';
 
 function App() {
+  const [linkClick, setLinkClick] = useState(false);
+
   return (
     <div className="App">
-      <Header />
+      <Header 
+        linkClick={linkClick}
+        setLinkClick={setLinkClick}
+      />
       <div>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet sapien ac ex bibendum, ultrices placerat ipsum volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut non ex tincidunt, rutrum ex nec, lacinia risus. Vivamus ac accumsan urna. Phasellus et lacus eget metus molestie viverra. Vivamus semper sed ex ac ornare. Donec sodales, velit at egestas sagittis, ex sapien eleifend lacus, egestas pretium magna sapien ac sapien. Praesent lectus justo, commodo et velit vel, tincidunt tempor tortor. Nunc nec vulputate odio. Mauris sit amet ipsum eu justo egestas pellentesque sit amet rhoncus felis. Nulla lacinia ac quam ac pretium. Nullam eget ligula ut sem ultrices scelerisque. In consequat eleifend lobortis. Donec sodales eu augue vitae vulputate.
 
