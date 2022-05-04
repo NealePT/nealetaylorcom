@@ -1,6 +1,7 @@
-import './App.css';
 import Header from './components/Header';
 import { useState } from 'react';
+import './App.css';
+import './components/LinkBar.css'
 
 function App() {
   const [linkClick, setLinkClick] = useState(true);
