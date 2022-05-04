@@ -1,7 +1,7 @@
 export default function LinkBar(props) {
   return (
     <span>
-    <div className="slide-out">
+      <div className="slide-out">
       <nav className="topnav">
         <ul className="linkButtons">
           <li><a className="clickOff"><i className="fa-solid fa-angles-right"></i></a></li>
@@ -11,12 +11,12 @@ export default function LinkBar(props) {
           <li><a href="mailto:nealeptaylor@gmail.com"><i className="fa-solid fa-square-envelope"></i></a></li>
         </ul>
       </nav>
-    </div>
-    <div className="arrowButton">
-      <a className="click">
-        <i className="fa-solid fa-angles-left"></i>
-      </a>
-    </div>
+      </div>
+      <div className="arrowButton">
+        <a className="click">
+          <i className="fa-solid fa-angles-left"></i>
+        </a>
+      </div>
     </span>
   )
 }
