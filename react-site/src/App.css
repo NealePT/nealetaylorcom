@@ -76,34 +76,6 @@ header {
   margin-top: 10px;
 }
 
-.arrowButton {
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  transition: .5s ease-in-out;
-  cursor: pointer;
-}
-
-.clickOff {
-  cursor: pointer;
-}
-
-.click {
-  color: #EBEFF1;
-  text-align: center;
-  margin: 5px 10px;
-  display: inline-block;
-  text-decoration: none;
-  font-size: 25px;
-}
-
-.slide-out{
-  position:fixed;
-  right: 10px;
-  top: 10px;
-  transition: .5s ease-in-out;
-}
-
 .construction {
   color:#EBEFF1;
   text-align: center;
@@ -111,11 +83,6 @@ header {
   font-size: 25px;
   font-family: 'Roboto', serif;
   font-weight: 300;
-}
-
-.linkButtons {
-  background-color: rgba(0,0,0,0.2);
-  border-radius: 10px;
 }
 
 .resume {
