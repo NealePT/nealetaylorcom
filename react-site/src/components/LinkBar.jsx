@@ -4,7 +4,10 @@ export default function LinkBar(props) {
       <div className="slide-out">
       <nav className="topnav">
         <ul className="linkButtons">
-          <li><a className="clickOff"><i className="fa-solid fa-angles-right"></i></a></li>
+          <li onClick={(e) => {
+            props.setLinkClick(true)
+            console.log(props.linkClick)
+          }}><a className="clickOff"><i className="fa-solid fa-angles-right"></i></a></li>
           <li><a href="https://www.linkedin.com/in/nealeptaylor/"><i className="fa-brands fa-linkedin"></i></a></li>
           <li><a href="https://github.com/NealePT"><i className="fa-brands fa-github-square"></i></a></li>
           <li><a href="https://www.instagram.com/nealeptaylor/"><i className="fa-brands fa-instagram-square"></i></a></li>
