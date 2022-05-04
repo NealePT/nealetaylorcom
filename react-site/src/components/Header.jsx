@@ -3,7 +3,10 @@ import LinkBar from "./LinkBar"
 export default function Header(props) {
   return (
     <header>
-    <LinkBar />
+    <LinkBar 
+      linkClick={props.linkClick}
+      setLinkClick={props.setLinkClick}
+    />
     <div className="wrapper">
       <div className="titleCard">
         <h1>
