@@ -79,7 +79,7 @@ header {
 .arrowButton {
   position: fixed;
   top: 10px;
-  right: -190px;
+  right: 10px;
   transition: .5s ease-in-out;
   cursor: pointer;
 }
