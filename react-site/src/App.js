@@ -3,7 +3,7 @@ import Header from './components/Header';
 import { useState } from 'react';
 
 function App() {
-  const [linkClick, setLinkClick] = useState(false);
+  const [linkClick, setLinkClick] = useState(true);
 
   return (
     <div className="App">
