@@ -1,0 +1,75 @@
+header {
+  background-image: url(../../public/assets/IMG_2062.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+}
+
+.topnav ul {
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.topnav li a {
+  color: #EBEFF1;
+  text-align: center;
+  margin: 5px 10px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.titleCard {
+  color:#EBEFF1;
+  text-align: center;
+  padding-top: 30vh;
+}
+
+.titleCard h1 {
+  font-size: 90px;
+}
+
+.titleCard h2 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.construction {
+  color:#EBEFF1;
+  text-align: center;
+  padding-top: 30vh;
+  font-size: 25px;
+  font-family: 'Roboto', serif;
+  font-weight: 300;
+}
+
+.resume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resumeClick {
+  font-family: 'Vidaloka', serif;
+  background-color: rgba(12, 29, 36, 0.3);
+  color: rgba(235, 239, 241, 0.9);
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  margin-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 2px solid rgba(12, 29, 36, 0.3);
+}
+
+.resumeClick:hover {
+  color: rgb(12, 29, 36);
+  background-color: rgba(235, 239, 241, 0.9);
+  border: 2px solid rgb(12, 29, 36);
+  cursor: pointer;
+}
