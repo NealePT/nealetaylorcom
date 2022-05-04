@@ -7,8 +7,10 @@
   position: fixed;
   top: 10px;
   right: 10px;
-  transition: .5s ease-in-out;
+  /* transition: .5s ease-in-out; */
   cursor: pointer;
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 10px;
 }
 
 .clickOff {
@@ -28,5 +30,4 @@
   position:fixed;
   right: 10px;
   top: 10px;
-  transition: .5s ease-in-out;
 }
