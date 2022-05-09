@@ -17,6 +17,7 @@ function App() {
         setLinkClick={setLinkClick}
       />
       <About />
+      <Skills />
     </div>
   );
 }
