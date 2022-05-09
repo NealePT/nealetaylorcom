@@ -17,7 +17,7 @@ header {
 }
 
 .topnav li a {
-  color: #EBEFF1;
+  color: #e7eaf6;
   text-align: center;
   margin: 5px 10px;
   display: inline-block;
@@ -26,7 +26,7 @@ header {
 }
 
 .titleCard {
-  color:#EBEFF1;
+  color:#e7eaf6;
   text-align: center;
   padding-top: 30vh;
 }
@@ -41,7 +41,7 @@ header {
 }
 
 .construction {
-  color:#EBEFF1;
+  color:#e7eaf6;
   text-align: center;
   padding-top: 30vh;
   font-size: 25px;
