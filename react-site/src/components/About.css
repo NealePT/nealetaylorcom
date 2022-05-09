@@ -30,11 +30,37 @@
   justify-content: center;
 }
 
-.about p {
+.aboutme {
   font-size: 1.5rem;
   padding: 30px;
   line-height: 2rem;
   background-color: #113f67;
   border-radius: 20px;
   color: #e7eaf6;
+}
+
+.card {
+  background-color: #113f67;
+  border-radius: 20px;
+  color: #e7eaf6;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 5px;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.aboutCards {
+  display: flex; 
+}
+
+.card h5 {
+  margin: 5px;
+  font-size: 1.4rem;
+}
+
+.card p {
+  margin: 10px;
 }

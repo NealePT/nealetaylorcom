@@ -1,3 +1,5 @@
+import AboutCard from "./AboutCard"
+
 export default function About(props) {
   return (
     <div className="about">
@@ -10,7 +12,24 @@ export default function About(props) {
             <img src="../../assets/profilePic.jpg" alt="Profile Pic" />
           </div>
           <div className="aboutDescription">
-            <p>
+            <div className="aboutCards">
+              <AboutCard 
+                type={"Education"}
+                icon={<i className="fa-solid fa-graduation-cap"></i>}
+                description={"Lighthouse Labs"}
+              />
+              <AboutCard 
+                type={"Experience"}
+                icon={<i className="fa-solid fa-briefcase"></i>}
+                description={"1 Year"}
+              />
+              <AboutCard 
+                type={"Projects"}
+                icon={<i className="fa-solid fa-folder-closed"></i>}
+                description={"Github"}
+              />
+            </div>
+            <p className="aboutme">
               Web Developer adept in front-end and back-end solutions. Proficient in an assortment
     of technologies including Javascript, React, HTML/CSS, SQL and more. Able to
     effectively self-manage during independent work as well as collaborate on projects and
