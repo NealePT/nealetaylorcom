@@ -1,7 +1,7 @@
 export default function About(props) {
   return (
-    <div className="wrapper">
-      <div className="about">
+    <div className="about">
+      <div className="wrapper">
         <h3>
           About Me
         </h3>
