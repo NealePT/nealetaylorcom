@@ -20,7 +20,7 @@
 
 .about {
   padding: 25px 0px;
-  height: 60vh;
+  min-height: 70vh;
 }
 
 .about h3 {
@@ -28,19 +28,21 @@
   font-size: 3rem;
   display: flex;
   justify-content: center;
+  color: #113f67;
 }
 
 .aboutme {
   font-size: 1.5rem;
   padding: 30px;
   line-height: 2rem;
-  background-color: #113f67;
+  background-color: #38598b 
+  ;
   border-radius: 20px;
   color: #e7eaf6;
 }
 
 .card {
-  background-color: #113f67;
+  background-color: #38598b;
   border-radius: 20px;
   color: #e7eaf6;
   height: 130px;
