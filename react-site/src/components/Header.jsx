@@ -26,6 +26,6 @@ export default function Header(props) {
         <a href="./assets/NealeTaylorResume.pdf" target="_blank" className= "resumeClick">My Resume</a>
       </div>
     </div>
-  </header>
+    </header>
   )
 };
