@@ -1,3 +1,17 @@
-.about {
+.aboutFlex {
   border: 1px solid red;
+  display: flex;
+}
+
+.profilepic {
+  height: 500px;
+  width:50%;
+}
+
+.profilepic img {
+  width: 100%
+}
+
+.aboutDescription {
+  width: 50%
 }
