@@ -1,17 +1,31 @@
 .aboutFlex {
-  border: 1px solid red;
   display: flex;
 }
 
 .profilepic {
   height: 500px;
-  width:50%;
+  width: 40%;
+  margin: 0% 2.5%;
 }
 
 .profilepic img {
-  width: 100%
+  width: 100%;
+  border-radius: 20px;
 }
 
 .aboutDescription {
-  width: 50%
+  width: 60%;
+  margin: 0% 2.5%;
+}
+
+.about {
+  margin: 25px 0px;
+  height: 700px;
+}
+
+.about h3 {
+  margin: 25px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
 }
