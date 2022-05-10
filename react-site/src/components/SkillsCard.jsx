@@ -2,9 +2,7 @@ export default function SkillsCard(props) {
   return (
     <div className="skillcard">
       <div className="frontEndSkills">
-        <h5>
-          Front-End
-        </h5>
+        <h5>Front-End</h5>
         <ul>
           <li>JavaScript</li>
           <li>Ruby</li>
@@ -19,9 +17,7 @@ export default function SkillsCard(props) {
         </ul>
       </div>
       <div className="backEndSkills">
-        <h5>
-          Back-End
-        </h5>
+        <h5>Back-End</h5>
         <ul>
           <li>Node.js</li>
           <li>Express</li>
@@ -30,6 +26,9 @@ export default function SkillsCard(props) {
           <li>Ajax</li>
           <li>PostgreSQL</li>
         </ul>
+      </div>
+      <div className="testingSkills">
+        <h5>Testing</h5>
       </div>
     </div>
   )
