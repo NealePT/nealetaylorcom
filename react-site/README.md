@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Personal Website for Neale Taylor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is to act as a portfolio/online presence for myself. It is made with React with some CSS and JavaScript thrown in for good measure.
 
 ## Available Scripts
 
