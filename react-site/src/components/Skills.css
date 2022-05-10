@@ -9,3 +9,22 @@
   justify-content: center;
   color: #113f67;
 }
+
+.skillcard div {
+  background-color: #38598b;
+  border-radius: 20px;
+  color: #e7eaf6;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 5px;
+  min-width: 40%;
+  font-size: 1.2rem;
+}
+
+.skillcard {
+  display: flex;
+  flex-wrap: wrap;
+}
