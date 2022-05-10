@@ -29,6 +29,12 @@ export default function SkillsCard(props) {
       </div>
       <div className="testingSkills">
         <h5>Testing</h5>
+        <ul>
+          <li>Mocha</li>
+          <li>Chai</li>
+          <li>Cypress</li>
+          <li>Jest</li>
+        </ul>
       </div>
     </div>
   )
