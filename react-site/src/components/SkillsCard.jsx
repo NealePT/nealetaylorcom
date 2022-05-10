@@ -19,6 +19,9 @@ export default function SkillsCard(props) {
         </ul>
       </div>
       <div className="backEndSkills">
+        <h5>
+          Back-End
+        </h5>
         <ul>
           <li>Node.js</li>
           <li>Express</li>
