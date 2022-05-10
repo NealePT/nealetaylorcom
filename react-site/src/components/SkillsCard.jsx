@@ -11,9 +11,21 @@ export default function SkillsCard(props) {
           <li>HTML</li>
           <li>CSS</li>
           <li>React</li>
+          <li>EJS</li>
+          <li>Jquery</li>
           <li>BootStrap</li>
           <li>Sass/SCSS</li>
           <li>Storybook</li>
+        </ul>
+      </div>
+      <div className="backEndSkills">
+        <ul>
+          <li>Node.js</li>
+          <li>Express</li>
+          <li>Ruby on Rails</li>
+          <li>Git</li>
+          <li>Ajax</li>
+          <li>PostgreSQL</li>
         </ul>
       </div>
     </div>
