@@ -2,7 +2,7 @@ import AboutCard from "./AboutCard"
 
 export default function About(props) {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div className="wrapper">
         <h3>
           About Me
