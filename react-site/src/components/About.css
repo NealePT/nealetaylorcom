@@ -28,20 +28,20 @@
   font-size: 3rem;
   display: flex;
   justify-content: center;
-  color: #113f67;
+  color: #0C1D24;
 }
 
 .aboutme {
   font-size: 1.5rem;
   padding: 30px;
   line-height: 2rem;
-  background-color: #38598b;
+  background-color: #0C1D24;
   border-radius: 20px;
   color: #e7eaf6;
 }
 
 .card {
-  background-color: #38598b;
+  background-color: #0C1D24;
   border-radius: 20px;
   color: #e7eaf6;
   height: 130px;
