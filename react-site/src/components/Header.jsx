@@ -2,7 +2,7 @@ import LinkBar from "./LinkBar"
 
 export default function Header(props) {
   return (
-    <header>
+    <header id="home">
     <LinkBar 
       linkClick={props.linkClick}
       setLinkClick={props.setLinkClick}
