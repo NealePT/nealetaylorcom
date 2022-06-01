@@ -1,7 +1,7 @@
 .footer {
   margin-top: 100px;
-  background-color: #000022;
-  color: #8D9BA0;
+  background-color: #204157;
+  color: #EAEFF3;
   min-height: 200px;
 }
 
@@ -15,7 +15,7 @@
 .footnav p {
   text-align: center;
   padding: 20px;
-  border-top: 1px solid #8D9BA0;
+  border-top: 1px solid #EAEFF3;
 }
 
 .footnav li a {
@@ -24,7 +24,7 @@
   display: inline-block;
   text-decoration: none;
   font-size: 18px;
-  color: #8D9BA0;
+  color: #EAEFF3;
   margin-top: 25px;
 }
 
