@@ -17,10 +17,10 @@
   border-radius: 20px;
   color: #EAEFF3;
   max-height: 400px;
+  min-height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   margin: 20px 5px;
   min-width: calc(100% / 3 - 10px);
   font-size: 1.2rem;
@@ -29,4 +29,13 @@
 .skillcard {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skillcard h5 {
+  font-size: 1.8rem;
+}
+
+.skillcard li {
+  margin: 5px;
 }
