@@ -9,7 +9,7 @@ export default function Footer(props) {
               <li><a href="#skills">Skills</a></li>
               <li><a href="#projects">Projects</a></li>
           </ul>
-          <p>Created at Juno College of Technology</p>
+          <p>© Neale Taylor, 2022</p>
         </nav>
       </div>
     </div>
