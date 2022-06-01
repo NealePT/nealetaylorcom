@@ -29,23 +29,23 @@
   font-size: 3rem;
   display: flex;
   justify-content: center;
-  color: #000022;
-  border-bottom: 1px solid #000022;
+  color: #EAEFF3;
+  border-bottom: 1px solid #EAEFF3;
 }
 
 .aboutme {
   font-size: 1.5rem;
   padding: 30px;
   line-height: 2rem;
-  background-color: #000022;
+  background-color: #33678A;
   border-radius: 20px;
-  color: #e7eaf6;
+  color: #EAEFF3;
 }
 
 .card {
-  background-color: #000022;
+  background-color: #33678A;
   border-radius: 20px;
-  color: #e7eaf6;
+  color: #EAEFF3;
   height: 130px;
   display: flex;
   flex-direction: column;
