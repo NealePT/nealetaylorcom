@@ -36,3 +36,14 @@
   margin: 5px;
 } */
 
+.skillContainer {
+  color: #DBE8D4;
+  display: flex;
+  border: 1px solid red;
+}
+
+.skillContainer h5 {
+  font-size: 1.2rem;
+  padding: 10px;
+  margin: 0px;
+}
