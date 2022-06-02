@@ -19,20 +19,20 @@ export default function Skills(props) {
               props.setSkill("Testing")
             }}>Testing</h5>
           </aside>
-          <span>
+          <article>
             {props.skill === "FrontEnd" && 
             <div>
-              hi
+              <p>hi</p>
             </div>}
             {props.skill === "BackEnd" && 
             <div>
-              sup
+              <p>sup</p>
             </div>}
             {props.skill === "Testing" && 
             <div>
-              yo
+              <p>yo</p>
             </div>}
-          </span>
+          </article>
         </div>
         {/* <SkillsCard /> */}
       </div>
