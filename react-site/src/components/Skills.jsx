@@ -10,10 +10,10 @@ export default function Skills(props) {
         <aside className="skillSidebar">
           <h5 onClick={(e) => {
             props.setSkill("FrontEnd")
-          }}>Back-End</h5>
+          }}>Front-End</h5>
           <h5 onClick={(e) => {
             props.setSkill("BackEnd")
-          }}>Front-End</h5>
+          }}>Back-End</h5>
           <h5 onClick={(e) => {
             props.setSkill("Testing")
           }}>Testing</h5>
