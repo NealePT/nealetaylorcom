@@ -12,7 +12,7 @@ import './components/Footer.css'
 
 function App() {
   const [linkClick, setLinkClick] = useState(true);
-
+  const [skill, setSkill] = useState("FrontEnd")
   return (
     <div className="App">
       <Header 
@@ -20,7 +20,10 @@ function App() {
         setLinkClick={setLinkClick}
       />
       <About />
-      <Skills />
+      <Skills 
+        skill={skill}
+        setSkill={setSkill}
+      />
       <Footer />
     </div>
   );
