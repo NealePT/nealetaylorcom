@@ -1,4 +1,4 @@
-import SkillsCard from "./SkillsCard"
+// import SkillsCard from "./SkillsCard"
 
 export default function Skills(props) {
   return (
