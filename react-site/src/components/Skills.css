@@ -8,14 +8,14 @@
   font-size: 3rem;
   display: flex;
   justify-content: center;
-  color: #EAEFF3;
-  border-bottom: 1px solid #EAEFF3;
+  color: #DBE8D4;
+  border-bottom: 1px solid #DBE8D4;
 }
 
 .skillcard div {
-  background-color: #33678A;
+  /* background-color: #33678A; */
   border-radius: 20px;
-  color: #EAEFF3;
+  color: #DBE8D4;
   max-height: 400px;
   min-height: 400px;
   display: flex;
