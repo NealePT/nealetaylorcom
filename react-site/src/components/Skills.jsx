@@ -20,7 +20,18 @@ export default function Skills(props) {
           <article>
             {props.skill === "FrontEnd" && 
             <div>
-              <p>hi</p>
+              <ul>
+                <li>JavaScript</li>
+                <li>Ruby</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>React</li>
+                <li>EJS</li>
+                <li>Jquery</li>
+                <li>BootStrap</li>
+                <li>Sass/SCSS</li>
+                <li>Storybook</li>
+              </ul>
             </div>}
             {props.skill === "BackEnd" && 
             <div>
