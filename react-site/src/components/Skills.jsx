@@ -46,7 +46,12 @@ export default function Skills(props) {
             </div>}
             {props.skill === "Testing" && 
             <div>
-              <p>yo</p>
+              <ul>
+                <li>Mocha</li>
+                <li>Chai</li>
+                <li>Cypress</li>
+                <li>Jest</li>
+              </ul>
             </div>}
           </article>
         </div>
