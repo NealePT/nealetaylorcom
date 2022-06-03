@@ -1,6 +1,9 @@
-// import SkillsCard from "./SkillsCard"
+import classNames from 'classnames';
 
 export default function Skills(props) {
+  const skillClass = classNames('skill_list_item', {
+    'skill_list_item--selected': props.skill
+  })
   return (
     <div id="skills" className="skills">
       <div className="wrapper">
@@ -34,7 +37,6 @@ export default function Skills(props) {
             </div>}
           </article>
         </div>
-        {/* <SkillsCard /> */}
       </div>
     </div>
   )
