@@ -43,4 +43,5 @@ skill_type {
 .skillContainer article {
   border: 1px solid blue;
   width: 80%;
+  margin: 10px 20px;
 }
