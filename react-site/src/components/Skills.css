@@ -47,3 +47,9 @@
   padding: 10px;
   margin: 0px;
 }
+
+.skillContainer h5:hover {
+  background-color: #DBE8D4;
+  cursor: pointer;
+  color: #222733;
+}
