@@ -34,3 +34,13 @@ skill_type {
   background-color: #DBE8D4;
   color: #222733
 }
+
+.skillSidebar {
+  width: 20%;
+  text-align: center;
+}
+
+.skillContainer article {
+  border: 1px solid blue;
+  width: 80%;
+}
