@@ -9,13 +9,13 @@ export default function Skills(props) {
         </h3>
         <div className="skillContainer">
           <aside className="skillSidebar">
-            <h5 onClick={(e) => {
+            <h5 className={`skill-type ${props.skill==="FrontEnd" && 'skill-type-selected'}`} onClick={(e) => {
               props.setSkill("FrontEnd")
             }}>Front-End</h5>
-            <h5 onClick={(e) => {
+            <h5 className="BackEnd" onClick={(e) => {
               props.setSkill("BackEnd")
             }}>Back-End</h5>
-            <h5 onClick={(e) => {
+            <h5 className="Testing" onClick={(e) => {
               props.setSkill("Testing")
             }}>Testing</h5>
           </aside>
