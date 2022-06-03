@@ -35,7 +35,14 @@ export default function Skills(props) {
             </div>}
             {props.skill === "BackEnd" && 
             <div>
-              <p>sup</p>
+              <ul>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>Ruby on Rails</li>
+                <li>Git</li>
+                <li>Ajax</li>
+                <li>PostgreSQL</li>
+              </ul>
             </div>}
             {props.skill === "Testing" && 
             <div>
