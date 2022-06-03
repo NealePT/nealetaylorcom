@@ -13,7 +13,7 @@ import './components/Footer.css'
 function App() {
   const [linkClick, setLinkClick] = useState(true);
   const [skill, setSkill] = useState("FrontEnd");
-  const [selected, setSelected] = useState("FrontEnd");
+  // const [selected, setSelected] = useState("FrontEnd");
   return (
     <div className="App">
       <Header 
@@ -24,8 +24,8 @@ function App() {
       <Skills 
         skill={skill}
         setSkill={setSkill}
-        selected={selected}
-        setSelected={setSelected}
+        // selected={selected}
+        // setSelected={setSelected}
       />
       <Footer />
     </div>
