@@ -3,9 +3,9 @@
 }
 
 .profilepic {
-  height: 100%;
   width: 40%;
   margin: 20px 2.5% 0px 2.5%;
+  border: 1px solid blue;
 }
 
 .profilepic img {
@@ -15,7 +15,8 @@
 
 .aboutDescription {
   width: 60%;
-  margin: 0% 2.5%;
+  margin: 20px 2.5% 0px 2.5%;
+  border: 1px solid green;
 }
 
 .about {
@@ -34,6 +35,7 @@
 }
 
 .aboutme {
+  height: 100%;
   font-size: 1.5rem;
   padding: 30px;
   line-height: 2rem;
