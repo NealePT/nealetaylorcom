@@ -3,7 +3,7 @@
 }
 
 .profilepic {
-  height: 500px;
+  height: 100%;
   width: 40%;
   margin: 20px 2.5% 0px 2.5%;
 }
@@ -41,7 +41,7 @@
   border-radius: 20px;
   color: #DBE8D4;
 }
-
+/* 
 .card {
   background-color: #2E3445;
   border-radius: 20px;
@@ -67,4 +67,4 @@
 
 .card p {
   margin: 10px;
-}
+} */
