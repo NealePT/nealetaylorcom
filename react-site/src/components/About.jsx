@@ -30,10 +30,7 @@ export default function About(props) {
               />
             </div>
             <p className="aboutme">
-              Web Developer adept in front-end and back-end solutions. Proficient in an assortment
-    of technologies including Javascript, React, HTML/CSS, SQL and more. Able to
-    effectively self-manage during independent work as well as collaborate on projects and
-    lead teams to complete tasks.
+            I am a Web Developer adept in front-end and back-end solutions. I've worked with and am proficient in an assortment of technologies including Javascript, React, HTML/CSS, SQL and more. I am also able to effectively self-manage during independent work as well as collaborate on projects and lead teams to complete tasks.
             </p>
           </div>
         </div>
