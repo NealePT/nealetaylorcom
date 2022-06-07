@@ -51,6 +51,7 @@ skill_type {
   flex-direction: column;
   flex-wrap: wrap;
   max-height: 10rem;
+  list-style: square;
 }
 
 .skillContainer li {
