@@ -11,7 +11,7 @@
 .skillContainer {
   color: #DBE8D4;
   display: flex;
-  border: 1px solid red;
+  border: 1px solid #DBE8D4;
 }
 
 .skillContainer h5 {
@@ -41,7 +41,6 @@ skill_type {
 }
 
 .skillContainer article {
-  border: 1px solid blue;
   width: 80%;
   margin: 10px 20px;
 }
