@@ -9,6 +9,7 @@ import './components/LinkBar.css'
 import './components/Header.css'
 import './components/About.css'
 import './components/Skills.css'
+import './components/Education.css'
 import './components/Footer.css'
 
 function App() {
