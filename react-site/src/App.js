@@ -22,11 +22,11 @@ function App() {
         setLinkClick={setLinkClick}
       />
       <About />
+      <Education />
       <Skills 
         skill={skill}
         setSkill={setSkill}
       />
-      <Education />
       <Footer />
     </div>
   );
