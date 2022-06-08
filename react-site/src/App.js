@@ -26,23 +26,7 @@ function App() {
         skill={skill}
         setSkill={setSkill}
       />
-      <div className="aboutCards wrapper">
-        <Education 
-          type={"Education"}
-          icon={<i className="fa-solid fa-graduation-cap"></i>}
-          description={"Lighthouse Labs"}
-        />
-        <Education 
-          type={"Experience"}
-          icon={<i className="fa-solid fa-briefcase"></i>}
-          description={"1 Year"}
-        />
-        <Education 
-          type={"Projects"}
-          icon={<i className="fa-solid fa-folder-closed"></i>}
-          description={"Github"}
-        />
-      </div>
+      <Education />
       <Footer />
     </div>
   );
