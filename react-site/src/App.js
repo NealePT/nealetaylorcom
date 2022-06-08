@@ -1,15 +1,16 @@
 import Header from './components/Header';
 import About from './components/About';
-import Skills from './components/Skills';
 import Education from './components/Education';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
 import Footer from './components/Footer';
 import { useState } from 'react';
 import './App.css';
 import './components/LinkBar.css'
 import './components/Header.css'
 import './components/About.css'
-import './components/Skills.css'
 import './components/Education.css'
+import './components/Skills.css'
 import './components/Footer.css'
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         skill={skill}
         setSkill={setSkill}
       />
+      <Projects />
       <Footer />
     </div>
   );
