@@ -11,12 +11,14 @@ export default function Education(props) {
         <EducationCard
           type={"Queen's University"}
           icon={<img src="../../assets/queenslogowhite.jpg" alt="Queen's University Logo" />}
-          description={"Bachelor of Arts (Honours)"}
+          title={"Bachelor of Arts (Honours)"}
+          description={"Major in Political Studies"}
         />
         <EducationCard
           type={"Lighthouse Labs"}
           icon={<img className="lighthouselogo" src="../../assets/lighthouseLogo.jpeg" alt="Lighthouse Labs Logo" />}
-          description={"Diploma- Full-Stack Web Development"}
+          title={"Diploma- Full-Stack Web Development"}
+          description={"Full Stack Web Development"}
         />
       </div>
       </div>
