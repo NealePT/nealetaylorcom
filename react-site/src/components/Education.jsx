@@ -10,13 +10,13 @@ export default function Education(props) {
         <div className="aboutCards">
         <EducationCard
           type={"Queen's University"}
-          icon={<img src="../../assets/QueensLogo_colour.png" alt="Profile Pic" />}
+          icon={<img src="../../assets/QueensLogo_colour.png" alt="Queen's University Logo" />}
           description={"Bachelor of Arts (Honours)"}
         />
         <EducationCard
           type={"Lighthouse Labs"}
-          icon={<i className="fa-solid fa-briefcase"></i>}
-          description={"Diploma Full-Stack Web Development"}
+          icon={<img className="lighthouselogo" src="../../assets/lighthouseTransparentLogo.png" alt="Lighthouse Labs Logo" />}
+          description={"Diploma- Full-Stack Web Development"}
         />
       </div>
       </div>
