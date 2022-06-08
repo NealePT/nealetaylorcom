@@ -6,6 +6,9 @@ export default function EducationCard(props) {
       {props.type}
     </h5>
     <p>
+      {props.title}
+    </p>
+    <p>
       {props.description}
     </p>
   </div>
