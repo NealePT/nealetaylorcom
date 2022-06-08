@@ -1,5 +1,3 @@
-// import AboutCard from "./AboutCard"
-
 export default function About(props) {
   return (
     <div id="about" className="about">
