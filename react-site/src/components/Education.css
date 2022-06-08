@@ -35,6 +35,12 @@
   margin: 10px 10px 30px 10px;
 }
 
+.card .lighthouselogo  {
+  width: 400px;
+  margin: 20px 0px;
+  height: 200px;
+}
+
 .card img {
   height: 250px; 
 }
