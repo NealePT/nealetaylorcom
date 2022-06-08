@@ -35,8 +35,14 @@
   font-size: 1.4rem;
 }
 
+.card h6 {
+  margin: 5px;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
 .card p {
-  margin: 10px 10px 30px 10px;
+  margin: 5px 10px 30px 10px;
 }
 
 .card img {
