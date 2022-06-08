@@ -9,19 +9,14 @@ export default function Education(props) {
         </h3>
         <div className="aboutCards">
         <EducationCard
-          type={"Education"}
+          type={"Queen's University"}
           icon={<i className="fa-solid fa-graduation-cap"></i>}
-          description={"Lighthouse Labs"}
+          description={"Bachelor of Arts (Honours)"}
         />
         <EducationCard
           type={"Experience"}
           icon={<i className="fa-solid fa-briefcase"></i>}
           description={"1 Year"}
-        />
-        <EducationCard
-          type={"Projects"}
-          icon={<i className="fa-solid fa-folder-closed"></i>}
-          description={"Github"}
         />
       </div>
       </div>
