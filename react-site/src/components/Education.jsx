@@ -14,9 +14,9 @@ export default function Education(props) {
           description={"Bachelor of Arts (Honours)"}
         />
         <EducationCard
-          type={"Experience"}
+          type={"Lighthouse Labs"}
           icon={<i className="fa-solid fa-briefcase"></i>}
-          description={"1 Year"}
+          description={"Diploma Full-Stack Web Development"}
         />
       </div>
       </div>
