@@ -11,22 +11,8 @@
 $itemGrow: 1.2;
 $duration: 250ms;
 
-html {
-  scroll-behavior: smooth;
-}
 
-body {
-  margin: 0;
-  background-color: #000;
-}
-
-h1 {
-  font-family: Arial;
-  color: red;
-  text-align: center;
-}
-
-.wrapper {
+.carouselWrap {
   display: grid;
   grid-template-columns: repeat(3,100%);
   overflow:hidden;
