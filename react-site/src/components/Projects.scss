@@ -11,12 +11,16 @@
 $itemGrow: 1.2;
 $duration: 250ms;
 
-
 .carouselWrap {
   display: grid;
   grid-template-columns: repeat(3,100%);
   overflow:hidden;
   scroll-behavior: smooth;
+
+  img {
+    height: 192px;
+    width: 341px;
+  }
 
   section {
     width: 100%;
