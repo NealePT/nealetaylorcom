@@ -11,7 +11,7 @@ import './components/Header.css'
 import './components/About.css'
 import './components/Education.css'
 import './components/Skills.css'
-import './components/Projects.css'
+import './components/Projects.scss'
 import './components/Footer.css'
 
 function App() {
