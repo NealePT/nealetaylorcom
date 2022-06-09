@@ -9,6 +9,7 @@ export default function Projects(props) {
         <div class="item">
           <img src="../../assets/simpliScreenshot.png" alt="Simpli Screenshot"  />
           <h5>Simpli</h5>
+          <h6>Simpli is a team-based project tracking productivity app. Projects are mapped through a list of deliverables, each containing it's own list of tasks.</h6>
         </div>
         <div class="item">
           <img src="../../assets/resourceHavenScreenshot.png" alt="Resource Haven Screenshot"  />
