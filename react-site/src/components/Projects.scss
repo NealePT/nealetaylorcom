@@ -9,14 +9,12 @@
 }
 
 .carouselWrap {
-  border: 1px solid green;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .item {
-  border: 1px solid red;
   background-color: #2E3445;
   border-radius: 20px;
   color: #DBE8D4;
