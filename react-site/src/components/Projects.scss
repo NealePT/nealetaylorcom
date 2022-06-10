@@ -57,6 +57,7 @@
   margin: 20px;
   padding: 10px;
   border-radius: 10px;
+  border: 1px solid #DBE8D4;
   background-color: #DBE8D4;
   color: #2E3445;
   cursor: pointer;
@@ -65,4 +66,9 @@
 .gitButton p {
   text-align: center;
   margin: 0px 0px 0px 10px;
+}
+
+.gitButton:hover {
+  background-color: #2E3445;
+  color: #DBE8D4;
 }
