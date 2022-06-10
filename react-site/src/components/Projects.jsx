@@ -15,10 +15,10 @@ export default function Projects(props) {
           <img src="../../assets/resourceHavenScreenshot.png" alt="Resource Haven Screenshot"  />
           <h5>Resource Haven</h5>
           <h6>Resource Haven allows learners to save learning resources (i.e. urls) like tutorials, blogs and videos in a central place that is publicly available to any user.</h6>
-          <div className="gitButton">
+          <a href="https://github.com/NealePT/lhl-midterm" className="gitButton">
             <i class="fa-brands fa-github"></i>
             <p>Github</p>
-          </div>
+          </a>
         </div>
         <div class="item">
           <img src="../../assets/schedulerScreenshot.png" alt="Scheduler Screenshot"  />
