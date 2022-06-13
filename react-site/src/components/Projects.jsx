@@ -18,7 +18,7 @@ export default function Projects(props) {
         <div class="item">
           <img src="../../assets/resourceHavenScreenshot.png" alt="Resource Haven Screenshot"  />
           <h5>Resource Haven</h5>
-          <h6>Resource Haven allows learners to save learning resources (i.e. urls) like tutorials, blogs and videos in a central place that is publicly available to any user.</h6>
+          <h6>Allows learners to save learning resources (i.e. urls) like tutorials, blogs and videos in a central place that is publicly available to any user.</h6>
           <a href="https://github.com/NealePT/lhl-midterm" className="gitButton">
             <i class="fa-brands fa-github"></i>
             <p>Github</p>
@@ -36,7 +36,7 @@ export default function Projects(props) {
         <div class="item">
           <img src="../../assets/jungleScreenshot.png" alt="Jungle Screenshot"  />
           <h5>Jungle</h5>
-          <h6>A mini e-commerce application built with Rails 4.2 for purposes of learning Rails.</h6>
+          <h6>A mini e-commerce application built for purposes of learning Rails 4.2.</h6>
           <a href="https://github.com/NealePT/Jungle" className="gitButton">
             <i class="fa-brands fa-github"></i>
             <p>Github</p>
@@ -54,7 +54,7 @@ export default function Projects(props) {
         <div class="item">
           <img src="../../assets/tinyUrlScreenshot.png" alt="TinyURL Screenshot"  />
           <h5>TinyURL</h5>
-          <h6>TinyApp is a full stack web application that allows users to shorten long URLs (à la bit.ly).</h6>
+          <h6>Full stack web application that allows users to shorten long URLs (à la bit.ly).</h6>
           <a href="https://github.com/NealePT/tinyapp" className="gitButton">
             <i class="fa-brands fa-github"></i>
             <p>Github</p>
