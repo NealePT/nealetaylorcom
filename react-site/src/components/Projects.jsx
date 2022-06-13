@@ -27,7 +27,7 @@ export default function Projects(props) {
         <div class="item">
           <img src="../../assets/schedulerScreenshot.png" alt="Scheduler Screenshot"  />
           <h5>Interview Scheduler</h5>
-          <h6>Interview Scheduler is a Single Page Application built for creating and tracking student interviews.</h6>
+          <h6>A Single Page Application built for creating and tracking student interviews.</h6>
           <a href="https://github.com/NealePT/scheduler" className="gitButton">
             <i class="fa-brands fa-github"></i>
             <p>Github</p>
