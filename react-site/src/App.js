@@ -31,6 +31,7 @@ function App() {
         setSkill={setSkill}
       />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   );
