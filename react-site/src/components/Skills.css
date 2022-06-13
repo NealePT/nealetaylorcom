@@ -1,5 +1,5 @@
 .skills h3 {
-  margin: 25px 0px;
+  margin: 25px 0px 50px 0px;
   padding: 0px 0px 25px 0px;
   font-size: 3rem;
   display: flex;
@@ -12,7 +12,7 @@
   color: #DBE8D4;
   display: flex;
   border: 1px solid #DBE8D4;
-  margin-bottom: 150px;
+  margin: 20px 0px 150px 0px;
 }
 
 .skillContainer h5 {
