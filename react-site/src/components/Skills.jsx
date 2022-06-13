@@ -30,6 +30,8 @@ export default function Skills(props) {
                 <li>Jquery</li>
                 <li>BootStrap</li>
                 <li>Sass/SCSS</li>
+                <li>MaterialUI</li>
+                <li>TailwindCSS</li>
                 <li>Storybook</li>
               </ul>
             </div>}
@@ -42,6 +44,7 @@ export default function Skills(props) {
                 <li>Git</li>
                 <li>Ajax</li>
                 <li>PostgreSQL</li>
+                <li>MySQL</li>
               </ul>
             </div>}
             {props.skill === "Testing" && 
