@@ -33,3 +33,12 @@
   animation: slideout 500ms ease-in-out;
 }
 
+@keyframes slideout {
+  0% { right: -50px; }
+  100% { right: 10px; }
+}
+
+@keyframes slidein {
+  0% { right: -50px; }
+  100% { right: 10px; }
+}
