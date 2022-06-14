@@ -8,7 +8,7 @@ export default function Contact(props) {
         <div className="conactLinks">
           <a className="contactLink contactEmailLink" href="mailto:nealeptaylor@gmail.com">
             <i class="fa-solid fa-envelope"></i>
-            <p>nealeptaylor@gmail.com</p>
+            <h5>Email</h5>
           </a>
         </div>
       </div>
