@@ -10,11 +10,9 @@
   cursor: pointer;
   background-color: rgba(0,0,0,0.2);
   border-radius: 10px;
-  animation: slidein 500ms ease-in-out;
-}
+  animation: slidein 250ms ease-in-out;
+  /* animation: slideback 500ms ease-in-out; */
 
-.clickOff {
-  cursor: pointer;
 }
 
 .click {
@@ -24,13 +22,21 @@
   display: inline-block;
   text-decoration: none;
   font-size: 25px;
+
 }
 
 .slide-out{
   position:fixed;
   right: 10px;
   top: 10px;
-  animation: slideout 500ms ease-in-out;
+  animation: slideout 250ms ease-in-out;
+  /* animation: slideback2 500ms ease-in-out; */
+
+}
+
+.clickOff {
+  cursor: pointer;
+
 }
 
 @keyframes slideout {
@@ -41,4 +47,14 @@
 @keyframes slidein {
   0% { right: -50px; }
   100% { right: 10px; }
+}
+
+@keyframes slideback {
+  100% { right: -50px; }
+  0% { right: 10px; }
+}
+
+@keyframes slideback2 {
+  100% { right: -50px; }
+  0% { right: 10px; }
 }
