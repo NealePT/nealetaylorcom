@@ -8,6 +8,10 @@
   border-bottom: 1px solid #DBE8D4;
 }
 
+.contactLinks {
+  display: flex;
+}
+
 .contactLink {
   display: flex;
   flex-direction: column;
@@ -37,6 +41,10 @@
 .contactLink h5 {
   margin: 20px 0px 0px 0px;
   font-size: 1.3rem;
+}
+
+.contactLink a {
+  margin: 0;
 }
 
 // .contactEmailLink:hover {
