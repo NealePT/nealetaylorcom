@@ -11,7 +11,7 @@ export default function Contact(props) {
             <h5>Email</h5>
           </a>
           <a className="contactLink" href="https://www.linkedin.com/in/nealeptaylor/">
-            <i className="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
             <h5>LinkedIn</h5>
           </a>
         </div>
