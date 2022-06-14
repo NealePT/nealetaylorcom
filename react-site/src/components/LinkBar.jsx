@@ -17,7 +17,7 @@ export default function LinkBar(props) {
           </ul>
         </nav>
         </div> 
-        : 
+      : 
         <div className="arrowButton" onClick={(e) => {
           props.setLinkClick(true)
         }}>
