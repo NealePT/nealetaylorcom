@@ -62,7 +62,9 @@
   text-align: center;
 }
 
-// .contactEmailLink:hover {
-//   background-color: #2E3445;
-//   color: #DBE8D4;
-// }
+.contactLink:hover {
+  i {
+    background-color: #2E3445;
+    color: #DBE8D4;
+  }
+}
