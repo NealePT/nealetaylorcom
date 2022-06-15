@@ -5,6 +5,7 @@ export default function Contact(props) {
         <h3>
           Contact Me
         </h3>
+        <h6 className="sendMessage">Feel free to send me a message by clicking any of the links below!</h6>
         <div className="contactLinks">
           <a className="contactLink" href="mailto:nealeptaylor@gmail.com">
             <i class="fa-solid fa-envelope"></i>
