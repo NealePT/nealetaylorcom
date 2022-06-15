@@ -61,6 +61,52 @@ export default function Projects(props) {
           </a>
         </div>
         </div>
+
+
+
+
+
+      <div class="carousel-wrapper">
+        <span id="item-1"></span>
+        <span id="item-2"></span>
+        <span id="item-3"></span>
+        <div class="carousel-item item-1">
+        <div class="item">
+          <img src="../../assets/simpliScreenshot.png" alt="Simpli Screenshot"  />
+          <h5>Simpli</h5>
+          <h6>Simpli is a team-based project tracking productivity app. Projects are mapped through a list of deliverables, each containing it's own list of tasks.</h6>
+          <a href="https://github.com/NealePT/simpli" className="gitButton">
+            <i class="fa-brands fa-github"></i>
+            <p>Github</p>
+          </a>
+        </div>
+        <div class="item">
+          <img src="../../assets/resourceHavenScreenshot.png" alt="Resource Haven Screenshot"  />
+          <h5>Resource Haven</h5>
+          <h6>Allows learners to save learning resources (i.e. urls) like tutorials, blogs and videos in a central place that is publicly available to any user.</h6>
+          <a href="https://github.com/NealePT/lhl-midterm" className="gitButton">
+            <i class="fa-brands fa-github"></i>
+            <p>Github</p>
+          </a>
+        </div>
+          <a class="arrow arrow-prev" href="#item-3"></a>
+          <a class="arrow arrow-next" href="#item-2"></a>
+        </div>
+        
+        <div class="carousel-item item-2">
+          <h2>Item 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat.</p>
+          <a class="arrow arrow-prev" href="#item-1"></a>
+          <a class="arrow arrow-next" href="#item-3"></a>
+        </div>
+        
+        <div class="carousel-item item-3">
+          <h2>Item 3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat.</p>
+          <a class="arrow arrow-prev" href="#item-2"></a>
+          <a class="arrow arrow-next" href="#item-1"></a>
+        </div>
+      </div>
       </div>
     </div>
   )
