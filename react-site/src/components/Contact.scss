@@ -23,7 +23,7 @@
   // background-color: #DBE8D4;
   color: #DBE8D4;
   cursor: pointer;
-  width: 150px;
+  // width: 150px;
 }
 
 .contactLink i {
@@ -45,6 +45,12 @@
 
 .contactLink a {
   margin: 0;
+}
+
+.contactLink h6 {
+  margin: 5px 30px 5px 30px;
+  font-size: 1.3rem;
+  font-weight: normal;
 }
 
 // .contactEmailLink:hover {
