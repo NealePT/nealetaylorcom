@@ -1,5 +1,6 @@
 {
-  "name": "react-site",
+  "name": "neale-taylor-site",
+  "homepage": "https://www.nealetaylor.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
