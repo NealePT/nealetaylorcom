@@ -21,6 +21,11 @@ export default function Contact(props) {
             <h5>GitHub</h5>
             <h6>/NealePT</h6>
           </a>
+          <a className="contactLink" href="https://www.instagram.com/nealeptaylor/">
+          <i class="fa-brands fa-instagram"></i>
+            <h5>Instagram</h5>
+            <h6>@nealeptaylor</h6>
+          </a>
         </div>
       </div>
     </div>
