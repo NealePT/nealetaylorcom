@@ -1,5 +1,5 @@
 .contact h3 {
-  margin: 25px 0px 50px 0px;
+  margin: 25px 0px 40px 0px;
   padding: 0px 0px 25px 0px;
   font-size: 3rem;
   display: flex;
@@ -10,6 +10,7 @@
 
 .contactLinks {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .contactLink {
@@ -23,7 +24,7 @@
   // background-color: #DBE8D4;
   color: #DBE8D4;
   cursor: pointer;
-  // width: 150px;
+  width: 250px;
 }
 
 .contactLink i {
@@ -48,9 +49,17 @@
 }
 
 .contactLink h6 {
-  margin: 5px 30px 5px 30px;
+  margin: 5px 0px 5px 0px;
   font-size: 1.2rem;
   font-weight: normal;
+}
+
+.sendMessage {
+  margin: 0px 0px 5px 0px;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #DBE8D4;
+  text-align: center;
 }
 
 // .contactEmailLink:hover {
