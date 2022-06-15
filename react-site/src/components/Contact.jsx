@@ -16,6 +16,11 @@ export default function Contact(props) {
             <h5>LinkedIn</h5>
             <h6>/in/nealeptaylor</h6>
           </a>
+          <a className="contactLink" href="https://github.com/NealePT">
+          <i class="fa-brands fa-github"></i>
+            <h5>GitHub</h5>
+            <h6>/NealePT</h6>
+          </a>
         </div>
       </div>
     </div>
