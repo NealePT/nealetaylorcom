@@ -1,5 +1,6 @@
 .aboutFlex {
   display: flex;
+  flex: 1 1 auto;
 }
 
 .profilepic {
@@ -40,4 +41,34 @@
   background-color: #2E3445;
   border-radius: 20px;
   color: #DBE8D4;
+}
+
+@media (max-width: 1024px) {
+  .aboutFlex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutDescription {
+    width: 80%;
+  }
+
+  .profilepic {
+    width: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  .aboutFlex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutDescription {
+    width: 100%;
+  }
+
+  .profilepic {
+    width: 100%;
+  }
 }
