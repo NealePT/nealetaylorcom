@@ -79,3 +79,9 @@
     width: 40%;
   }
 }
+
+@media (max-width: 440px) {
+  .contactLink h6 {
+    display: none;
+  }
+}

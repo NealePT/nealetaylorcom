@@ -72,3 +72,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 370px) {
+  .aboutme {
+    padding: 20px 10px;
+  }
+}

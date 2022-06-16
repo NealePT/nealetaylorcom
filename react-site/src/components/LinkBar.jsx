@@ -1,7 +1,7 @@
 export default function LinkBar(props) {
   const handleClick = () => {
     return (
-      <span>
+      <span className="linkContainer">
       {props.linkClick 
         ?
         <div className="slide-out">

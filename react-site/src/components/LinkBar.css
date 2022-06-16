@@ -42,3 +42,10 @@
   0% { right: -50px; }
   100% { right: 10px; }
 }
+
+
+@media screen and (max-width: 500px) {
+  .linkContainer {
+    display: none;
+  }
+}

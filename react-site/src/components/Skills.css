@@ -67,3 +67,17 @@ skill_type {
     max-height: 15rem;
   } 
 }
+
+@media (max-width: 370px) {
+  .skillContainer ul{
+    max-height: 30rem;
+  } 
+
+  .skillSidebar {
+    width: 30%;
+  }
+
+  .skillContainer article {
+    width: 70%;
+  }
+}

@@ -129,7 +129,7 @@
   }
 
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .carousel-item {
     display: flex;
     flex-direction: column;
@@ -140,7 +140,7 @@
   }
 }
 
-@media (max-width: 560px) {
+@media screen and (max-width: 560px) {
   .projects img {
     height: 153px;
     width: 272px;
@@ -150,3 +150,25 @@
     margin: 5px 10px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .projects img {
+      height: 100px;
+      width: 200px;
+  }
+
+  .item h6 {
+    margin: 5px 5px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .carousel-item {
+    padding: 5px;
+  }
+
+  .carousel-wrapper {
+    height: 900px;
+  }
+}
+

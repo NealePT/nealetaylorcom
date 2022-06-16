@@ -71,3 +71,10 @@
     height: 125px;
   }
 }
+
+@media (max-width: 370px) {
+  .card img {
+    width: 200px;
+    height: 100px;
+  }
+}
