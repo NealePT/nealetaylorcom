@@ -28,3 +28,8 @@
   margin-top: 25px;
 }
 
+@media (max-width: 650px) {
+  .footnav li a {
+    padding: 10px;
+  }
+}
