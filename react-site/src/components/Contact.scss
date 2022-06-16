@@ -11,6 +11,7 @@
 .contactLinks {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .contactLink {
@@ -22,7 +23,7 @@
   border-radius: 10px;
   color: #DBE8D4;
   cursor: pointer;
-  width: 250px;
+  width: 200px;
 }
 
 .contactLink i {
