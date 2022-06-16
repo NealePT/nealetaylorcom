@@ -17,7 +17,7 @@ header {
 }
 
 .topnav li a {
-  color: #e7eaf6;
+  color: #DBE8D4;
   text-align: center;
   margin: 5px 10px;
   display: inline-block;
@@ -26,7 +26,7 @@ header {
 }
 
 .titleCard {
-  color:#e7eaf6;
+  color:#DBE8D4;
   text-align: center;
   padding-top: 30vh;
 }
@@ -41,7 +41,7 @@ header {
 }
 
 .construction {
-  color:#e7eaf6;
+  color:#DBE8D4;
   text-align: center;
   padding-top: 30vh;
   font-size: 25px;
@@ -58,7 +58,7 @@ header {
 .resumeClick {
   font-family: 'Vidaloka', serif;
   background-color: rgba(12, 29, 36, 0.3);
-  color: rgba(235, 239, 241, 0.9);
+  color: rgba(219, 232, 212, 0.9);
   padding: 10px;
   width: 200px;
   text-align: center;
@@ -70,7 +70,7 @@ header {
 
 .resumeClick:hover {
   color: rgb(12, 29, 36);
-  background-color: rgba(235, 239, 241, 0.9);
+  background-color: rgba(219, 232, 212, 0.9);
   border: 2px solid rgb(12, 29, 36);
   cursor: pointer;
 }
