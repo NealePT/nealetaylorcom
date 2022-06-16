@@ -28,6 +28,7 @@
 
 .aboutCards {
   display: flex; 
+  flex: 1 1 auto;
 }
 
 .card h5 {
@@ -50,4 +51,23 @@
   width: 400px;
   height: 200px; 
   border-radius: 20px;
+}
+
+
+@media (max-width: 1024px) {
+  .aboutCards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  .card img {
+    width: 250px;
+    height: 125px;
+  }
 }
