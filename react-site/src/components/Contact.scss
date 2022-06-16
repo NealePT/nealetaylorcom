@@ -67,3 +67,15 @@
     color: #DBE8D4;
   }
 }
+
+@media (max-width: 1200px) {
+  .contactLink {
+    margin: 20px 5px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .contactLink {
+    width: 40%;
+  }
+}
