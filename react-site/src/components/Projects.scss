@@ -125,3 +125,11 @@
     z-index: 3;
     opacity: 1;
   }
+
+
+  @media (max-width: 800px) {
+    .carousel-item {
+      display: flex;
+      flex-direction: column;
+    }
+  }
