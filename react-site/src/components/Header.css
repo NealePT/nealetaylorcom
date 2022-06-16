@@ -74,3 +74,9 @@ header {
   border: 2px solid rgb(12, 29, 36);
   cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+  .titleCard {
+    padding-top: 15vh;
+  }
+}
