@@ -64,15 +64,6 @@
   color: #DBE8D4;
 }
 
-
-
-
-
-
-
-
-
-
 .carousel-wrapper{
   height:550px;
   position:relative;
@@ -113,15 +104,6 @@
   transform:translateY(-50%) rotate(-45deg);
   }
 
-// @media (max-width: 480px) {
-//       .arrow, .light .arrow {
-//         background-size: 10px;
-//         background-position: 10px 50%;
-//       }
-//     }
-
-
-/*Select every element*/
 [id^="item"] {
     display: none;
   }
