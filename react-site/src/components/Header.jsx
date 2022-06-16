@@ -16,12 +16,12 @@ export default function Header(props) {
           Full-Stack Web Developer
         </h2>
       </div>
-      <div className="construction">
+      {/* <div className="construction">
         <p>
           This website is under construction.
           Feel free to contact me at the links above.
         </p>
-      </div>
+      </div> */}
       <div className="resume">
         <a href="./assets/NealeTaylorResume.pdf" target="_blank" className= "resumeClick">My Resume</a>
       </div>
