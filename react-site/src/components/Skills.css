@@ -61,3 +61,9 @@ skill_type {
   font-size: 1.3rem;
   margin: 5px 5px 5px 25px;
 }
+
+@media (max-width: 600px) {
+  .skillContainer ul{
+    max-height: 15rem;
+  } 
+}
