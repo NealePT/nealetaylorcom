@@ -22,6 +22,10 @@
   font-size: 1.2rem;
 }
 
+.item:hover {
+  border: 1px solid red;
+}
+
 .projects img {
   height: 192px;
   width: 341px;
