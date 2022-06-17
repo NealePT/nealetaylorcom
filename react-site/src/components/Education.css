@@ -26,6 +26,11 @@
   font-size: 1.2rem;
 }
 
+.card:hover {
+  transform: scale(1.2);
+  border: 1px solid #DBE8D4;
+}
+
 .aboutCards {
   display: flex; 
   flex: 1 1 auto;
