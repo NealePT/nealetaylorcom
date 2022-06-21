@@ -7,7 +7,7 @@ export default function About(props) {
         </h3>
         <div className="aboutFlex">
           <div className="profilepic">
-            <img src="../../assets/profilePic.jpg" alt="Profile Pic" />
+            <img src="../../assets/profilePic.webp" alt="Profile Pic" />
           </div>
           <div className="aboutDescription">
             <p className="aboutme">
