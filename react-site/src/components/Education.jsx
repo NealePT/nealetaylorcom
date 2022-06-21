@@ -10,7 +10,7 @@ export default function Education(props) {
         <div className="aboutCards">
         <EducationCard
           type={"Queen's University"}
-          icon={<img src="../../assets/queenslogowhite.jpg" alt="Queen's University Logo" />}
+          icon={<img src="../../assets/queenslogowhite.webp" alt="Queen's University Logo" />}
           title={"Bachelor of Arts (Honours)"}
           description={"Major in Political Studies"}
         />
