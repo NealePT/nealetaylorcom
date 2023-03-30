@@ -5,6 +5,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Work from './components/Work';
 import { useState } from 'react';
 import './App.css';
 import './components/LinkBar.css'
@@ -15,6 +16,7 @@ import './components/Skills.css'
 import './components/Projects.scss'
 import './components/Contact.scss'
 import './components/Footer.css'
+import './components/Work.css'
 
 function App() {
   const [linkClick, setLinkClick] = useState(true);
