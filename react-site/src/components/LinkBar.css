@@ -3,9 +3,13 @@
   border-radius: 10px;
 }
 
+.linkContainer {
+  z-index: 11;
+}
+
 .arrowButton {
   position: fixed;
-  top: 10px;
+  top: 70px;
   right: 10px;
   cursor: pointer;
   background-color: rgba(0,0,0,0.2);
@@ -25,7 +29,7 @@
 .slide-out{
   position:fixed;
   right: 10px;
-  top: 10px;
+  top: 70px;
   animation: slideout 250ms ease-in-out;
 }
 

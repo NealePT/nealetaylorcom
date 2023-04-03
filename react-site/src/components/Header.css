@@ -81,6 +81,11 @@ header {
 .headNav {
   background-color: #2E3445;
   color: #DBE8D4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }
 
 .headNav ul {
