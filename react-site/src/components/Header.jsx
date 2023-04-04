@@ -24,7 +24,7 @@ export default function Header(props) {
             Neale Taylor
           </h1>
           <h2>
-            Full-Stack Web Developer
+            Full-Stack Developer
           </h2>
         </div>
         <div className="resume">
