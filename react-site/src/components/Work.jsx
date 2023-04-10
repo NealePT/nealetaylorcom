@@ -2,7 +2,7 @@ export default function Work() {
   return (
     <div className="Work">
       <div className="workCard">
-        <img src="../../assets/FL2Flogo.png" alt="fl2f logo" />
+        {/* <img src="../../assets/FL2Flogo.png" alt="fl2f logo" /> */}
         <h5>Software Engineer</h5>
         <h6>From Lab 2 Fulfillment</h6>
         <ul>
