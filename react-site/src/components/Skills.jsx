@@ -40,7 +40,7 @@ export default function Skills(props) {
               <ul>
                 <li>Node.js</li>
                 <li>Express</li>
-                <li>Ruby on Rails</li>
+                <li>Rails</li>
                 <li>Git</li>
                 <li>Ajax</li>
                 <li>PostgreSQL</li>
