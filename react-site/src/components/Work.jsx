@@ -2,6 +2,9 @@ export default function Work() {
   return (
     <div className="Work">
       <div className="wrapper">
+      <h3>
+        Work Experience
+      </h3>
       <div className="workCard">
         <h5>Software Engineer</h5>
         <h6>From Lab 2 Fulfillment</h6>

@@ -1,3 +1,46 @@
 .Work {
   color: #DBE8D4;
 }
+
+.Work {
+  margin-bottom: 150px;
+}
+
+.Work h3 {
+  margin: 25px 0px;
+  padding: 0px 0px 25px 0px;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  color: #DBE8D4;
+  border-bottom: 1px solid #DBE8D4;
+}
+
+.Work h5 {
+  margin: 5px;
+  font-size: 1.4rem;
+}
+
+.Work h6 {
+  margin: 5px;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.Work li {
+  margin-left: 30px;
+}
+
+.workCard {
+  background-color: #2E3445;
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 10px;
+  transition: all .2s ease-in-out;
+
+}
+
+.workCard:hover {
+  transform: scale(1.2);
+  border: 1px solid #DBE8D4;
+}
