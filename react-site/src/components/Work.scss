@@ -34,9 +34,17 @@
   padding: 25px;
   border-radius: 10px;
   transition: all .2s ease-in-out;
+  border: 1px solid #2E3445;
 }
 
 .workCard:hover {
   transform: scale(1.2);
   border: 1px solid #DBE8D4;
+}
+
+.fa-grip-lines-vertical {
+  margin-top: 30px;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
 }
