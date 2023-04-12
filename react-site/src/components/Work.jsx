@@ -1,6 +1,6 @@
 export default function Work() {
   return (
-    <div id="Work" className="Work">
+    <div id="experience" className="Work">
       <div className="wrapper">
       <h3>
         Work Experience

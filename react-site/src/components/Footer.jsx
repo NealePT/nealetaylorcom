@@ -9,7 +9,7 @@ export default function Footer(props) {
               <li><a href="#education">Education</a></li>
               <li><a href="#skills">Skills</a></li>
               <li><a href="#projects">Projects</a></li>
-              <li><a href="#Work">Experience</a></li>
+              <li><a href="#experience">Experience</a></li>
               <li><a href="#contact">Contact</a></li>
           </ul>
           <p>© Neale Taylor, 2022</p>
