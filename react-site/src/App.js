@@ -16,7 +16,7 @@ import './components/Skills.css'
 import './components/Projects.scss'
 import './components/Contact.scss'
 import './components/Footer.css'
-import './components/Work.css'
+import './components/Work.scss'
 
 function App() {
   const [linkClick, setLinkClick] = useState(true);
