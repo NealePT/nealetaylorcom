@@ -1,6 +1,7 @@
 export default function Work() {
   return (
     <div className="Work">
+      <div className="wrapper">
       <div className="workCard">
         <h5>Software Engineer</h5>
         <h6>From Lab 2 Fulfillment</h6>
@@ -34,6 +35,8 @@ export default function Work() {
           <li>Handled a variety of customer requests and dealt with any new issues as they arose.</li>
           <li>Adapted and learned constantly for continued efficiency on calls.</li>
         </ul>
+      </div>
+
       </div>
     </div>
   )
