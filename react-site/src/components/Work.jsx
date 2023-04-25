@@ -15,6 +15,7 @@ export default function Work() {
           <li>Deployed apps using Google Cloud Repositories and Cloud run to deploy Docker containers onto the web.</li>
         </ul>
       </div>
+
       <i class="fa-solid fa-grip-lines-vertical"></i>
       <div className="workCard">
         <h5>Web Developer</h5>
@@ -24,6 +25,7 @@ export default function Work() {
           <li>Used a variety of coding languages to deliver clean, functional code in a timely manner.</li>
         </ul>
       </div>
+
       <i class="fa-solid fa-grip-lines-vertical"></i>
       <div className="workCard">
         <h5>Maintenance Supervisor</h5>
@@ -33,6 +35,7 @@ export default function Work() {
           <li>Collaborated with management to increase worker efficiency in certain areas by up to 25%.</li>
         </ul>
       </div>
+
       <i class="fa-solid fa-grip-lines-vertical"></i>
       <div className="workCard">
         <h5>Technical Support Advisor</h5>
