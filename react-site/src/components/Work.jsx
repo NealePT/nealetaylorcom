@@ -19,7 +19,7 @@ export default function Work() {
       <i class="fa-solid fa-grip-lines-vertical"></i>
       <div className="workCard">
         <h5>Web Developer</h5>
-        <h6>Freelance- Various Employers</h6>
+        <h6>Freelance</h6>
         <ul>
           <li>Successfully constructed, updated, and launched multiple websites and web applications across diverse professional engagements. </li>
           <li>Proficiently employed a range of coding languages to consistently deliver clean, functional code within tight deadlines. </li>
