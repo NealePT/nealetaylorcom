@@ -11,7 +11,7 @@ export default function About(props) {
           </div>
           <div className="aboutDescription">
             <p className="aboutme">
-            I am a Web Developer adept in front-end and back-end solutions. I've worked with and am proficient in an assortment of technologies including Javascript, React, HTML/CSS, SQL and more. I am also able to effectively self-manage during independent work as well as collaborate on projects and lead teams to complete tasks.
+            I'm a versatile software developer proficient in both front-end and back-end development. With a strong ability to work independently or lead teams, I excel in delivering high-quality code. My daily exposure to diverse technologies allows me to quickly adapt to new languages and frameworks. Known for my adaptability and commitment to excellence, I'm a personable, fast learner who thrives in dynamic environments. 
             </p>
           </div>
         </div>
