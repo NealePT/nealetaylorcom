@@ -9,10 +9,10 @@ export default function Work() {
         <h5>Software Engineer</h5>
         <h6>From Lab 2 Fulfillment</h6>
         <ul>
-          <li>Mainly using React, JS, Node, and Express, I created several new full-stack apps to my employers specifications.</li>
-          <li>Used Agile workflow to collaborate with colleagues and git for source control.</li>
-          <li>Analyzed code written by others in several languages to find and fix bugs or update code base.</li>
-          <li>Deployed apps using Google Cloud Repositories and Cloud run to deploy Docker containers onto the web.</li>
+          <li>Developed multiple full-stack applications using React, JavaScript, SCSS, Node.js, and Express, meeting strict project timelines and client requirements. </li>
+          <li>Utilized Agile methodologies to collaborate seamlessly with cross-functional teams, ensuring efficient development cycles and delivering high-quality results. </li>
+          <li>Proficiently reviewed and debugged code in multiple languages, enhancing codebase reliability and functionality.</li>
+          <li>Deployed applications to the web using Google Cloud Repositories and Cloud Run, leveraging Docker containers for efficient deployment. </li>
         </ul>
       </div>
 
@@ -21,8 +21,8 @@ export default function Work() {
         <h5>Web Developer</h5>
         <h6>Freelance- Various Employers</h6>
         <ul>
-          <li>Built, updated, and deployed several websites and web applications for various employers.</li>
-          <li>Used a variety of coding languages to deliver clean, functional code in a timely manner.</li>
+          <li>Successfully constructed, updated, and launched multiple websites and web applications across diverse professional engagements. </li>
+          <li>Proficiently employed a range of coding languages to consistently deliver clean, functional code within tight deadlines. </li>
         </ul>
       </div>
 
@@ -31,8 +31,8 @@ export default function Work() {
         <h5>Maintenance Supervisor</h5>
         <h6>Grand Niagara</h6>
         <ul>
-          <li>Managed a team of employees and led the completion of various projects.</li>
-          <li>Collaborated with management to increase worker efficiency in certain areas by up to 25%.</li>
+          <li>Directed and supervised a team of employees, overseeing the successful completion of diverse projects.</li>
+          <li>Worked closely with management to implement efficiency enhancements, resulting in up to a 25% increase in productivity within specific areas.</li>
         </ul>
       </div>
 
@@ -41,8 +41,8 @@ export default function Work() {
         <h5>Technical Support Advisor</h5>
         <h6>Concentrix</h6>
         <ul>
-          <li>Handled a variety of customer requests and dealt with any new issues as they arose.</li>
-          <li>Adapted and learned constantly for continued efficiency on calls.</li>
+          <li>Managed diverse customer requests and promptly addressed emerging issues. </li>
+          <li>Demonstrated adaptability and a commitment to continuous learning to enhance call efficiency. </li>
         </ul>
       </div>
 
