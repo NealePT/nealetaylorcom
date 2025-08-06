@@ -11,7 +11,7 @@ export default function About(props) {
           </div>
           <div className="aboutDescription">
             <p className="aboutme">
-            I'm a versatile software developer proficient in both front-end and back-end development. With a strong ability to work independently or lead teams, I excel in delivering high-quality code. My daily exposure to diverse technologies allows me to quickly adapt to new languages and frameworks. Known for my adaptability and commitment to excellence, I'm a personable, fast learner who thrives in dynamic environments. 
+            I'm a Full-Stack Developer with a proven track record of building scalable, production-grade applications using Angular, Node.js, and cloud technologies. I'm experienced in GPT-based AI integration, cloud deployment, and end-to-end project ownership. I’m a strong collaborator who thrives in fast-paced, cross-functional teams.
             </p>
           </div>
         </div>

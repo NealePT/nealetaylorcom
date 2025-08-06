@@ -28,13 +28,13 @@ function App() {
         setLinkClick={setLinkClick}
       />
       <About />
+      <Work />
       <Education />
       <Skills 
         skill={skill}
         setSkill={setSkill}
       />
       <Projects />
-      <Work />
       <Contact />
       <Footer />
     </div>

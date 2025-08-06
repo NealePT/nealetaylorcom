@@ -13,12 +13,12 @@ export default function Skills(props) {
             <h5 className={`skill-type ${props.skill==="BackEnd" && 'skill-type-selected'}`} onClick={(e) => {
               props.setSkill("BackEnd")
             }}>Back-End</h5>
-            <h5 className={`skill-type ${props.skill==="Frameworks" && 'skill-type-selected'}`} onClick={(e) => {
-              props.setSkill("Frameworks")
-            }}>Frameworks</h5>
-            <h5 className={`skill-type ${props.skill==="DevTools" && 'skill-type-selected'}`} onClick={(e) => {
-              props.setSkill("DevTools")
-            }}>Dev Tools</h5>
+            <h5 className={`skill-type ${props.skill==="Databases" && 'skill-type-selected'}`} onClick={(e) => {
+              props.setSkill("Databases")
+            }}>Databases</h5>
+            <h5 className={`skill-type ${props.skill==="DevOps" && 'skill-type-selected'}`} onClick={(e) => {
+              props.setSkill("DevOps")
+            }}>DevOps & Tools</h5>
             <h5 className={`skill-type ${props.skill==="SoftSkills" && 'skill-type-selected'}`} onClick={(e) => {
               props.setSkill("SoftSkills")
             }}>Soft Skills</h5>
@@ -27,6 +27,8 @@ export default function Skills(props) {
             {props.skill === "FrontEnd" && 
             <div>
               <ul>
+                <li>TypeScript</li>
+                <li>Angular</li>
                 <li>JavaScript</li>
                 <li>React</li>
                 <li>HTML</li>
@@ -42,33 +44,28 @@ export default function Skills(props) {
                 <li>Node.js</li>
                 <li>Express</li>
                 <li>SQL</li>
-                <li>Docker</li>
+                <li>Python</li>
                 <li>Rails</li>
               </ul>
             </div>}
-            {props.skill === "Frameworks" && 
+            {props.skill === "Databases" && 
             <div>
               <ul>
-                <li>jQuery</li>
+                <li>MongoDB</li>
                 <li>MySQL</li>
                 <li>PostgreSQL</li>
-                <li>MaterialUI</li>
-                <li>Bootstrap</li>
-                <li>Kubernetes</li>
               </ul>
             </div>}
-            {props.skill === "DevTools" && 
+            {props.skill === "DevOps" && 
             <div>
               <ul>
                 <li>Git</li>
-                <li>Github</li>
+                <li>Docker</li>
+                <li>CI/CD</li>
+                <li>Kubernetes</li>
                 <li>Google Cloud</li>
                 <li>Agile Development</li>
-                <li>React Testing Library</li>
-                <li>Mocha/Chai</li>
-                <li>Jest</li>
-                <li>Storybook</li>
-                <li>Cypress</li>
+                <li>Figma</li>
               </ul>
             </div>}
             {props.skill === "SoftSkills" && 
